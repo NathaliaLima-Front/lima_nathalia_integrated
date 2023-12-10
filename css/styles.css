@@ -107,3 +107,106 @@ ol {
 #award-dining-con .banner-section {
     background: url(../images/sec03-dining-412.jpg) no-repeat;
 }
+/* /DINING PAGE */
+
+/* ROOMS PAGE */
+.section-rooms {
+    margin-bottom: 30px;
+}
+
+#hero-rooms {
+    background: url(../images/hero-room-412.jpg) no-repeat;
+    height: 200px;
+}
+
+#room-chateaus-con .banner-section {
+    background: url(../images/sec01-room-412.jpg) no-repeat;
+}
+
+#room-villas-con .banner-section {
+    background: url(../images/sec02-room-412.jpg) no-repeat;
+}
+
+#room-masters-con .banner-section {
+    background: url(../images/sec03-room-412.jpg) no-repeat;
+}
+
+#room-chalet-con .banner-section {
+    background: url(../images/sec04-room-412.jpg) no-repeat;
+}
+
+#room-exotics-con .banner-section {
+    background: url(../images/sec05-room-412.jpg) no-repeat;
+}
+
+#room-juniors-con .banner-section {
+    background: url(../images/sec06-room-412.jpg) no-repeat;
+}
+
+#main-info-rooms {
+    padding: 30px 15px 50px;
+    background-color: #EDEDED;
+    line-height: 24px;
+}
+
+#main-info-rooms h3,
+#rooms-intern-summary h3 {
+    font-size: 14px;
+}
+
+#main-info-rooms li,
+#rooms-intern-summary li {
+    border-bottom: 1px solid #9A2018;
+    padding: 5px 0 0px;
+    font-size: 12px;
+}
+
+.rooms-list-items {
+    margin-bottom: 15px;
+}
+
+.rooms-list-items li {
+    position: relative;
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.rooms-list-items li::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #C54242;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.rooms-list-items + a {
+    background-color: #C54242;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 6px 26px;
+}
+
+.rooms-list-items + a:hover {
+    opacity: .8;
+}
+
+
+/* /ROOMS PAGE */
+
+/* ROOMS INTERN PAGE */
+#hero-intern-rooms {
+    background: url(../images/hero-room-intern-412.jpg) no-repeat;
+    height: 200px;
+}
+
+#rooms-intern-summary ul {
+    margin-top: 10px;
+}
+
+/* /ROOMS INTERN PAGE */
