@@ -1,0 +1,109 @@
+p {
+    font-size: 14px;
+}
+
+ul,
+ol {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+::before {
+    font-family: "Font Awesome 5 Free";
+}
+
+.grid-full {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    column-gap: 30px;
+    max-width: 412px;
+    margin: 0 auto;
+}
+
+.title-section {
+    align-self: end;
+}
+
+.banner-section  {
+    height: 195px;
+}
+
+.section-dining h3,
+.dropdown-content-list h4,
+.dropdown-content-list h5 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/* DROPDOWN */
+.dropdown-list-item {
+    margin-bottom: 12px;
+}
+
+.dropdown-list-title {
+    background-color: #E8E7E7;
+    padding: 10px 20px;
+}
+
+.dropdown-list-title::before {
+    content: "\f0da";
+    padding-right: 15px;
+    color: #B8B8B8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dropdown-content-list {
+    background-color: #F6F6F6;
+    padding: 20px;
+    /* To do - Build dropdown */
+    display: none;
+}
+
+.dropdown-content-list li {
+    margin-bottom: 20px;
+}
+
+/* /DROPDOWN */
+
+/* DINING PAGE */
+.section-dining {
+    margin-bottom: 60px;
+}
+
+#hero-dining {
+    background: url(../images/hero-dining-412.jpg) no-repeat;
+    height: 200px;
+}
+
+#main-info-dining {
+    padding: 20px 15px 40px;
+    background-color: #EDEDED;
+    line-height: 24px;
+}
+
+#gourmet-vegans-dining {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#gournet-dining-menu-con .banner-section {
+    background: url(../images/sec01-dining-412.jpg) no-repeat;
+}
+
+#meals-wine-dining-con .banner-section {
+    background: url(../images/sec02-dining-412.jpg) no-repeat;
+}
+
+#meals-wine-dining-con h3 {
+    margin-bottom: 24px;
+}
+
+#award-dining-con .banner-section {
+    background: url(../images/sec03-dining-412.jpg) no-repeat;
+}
